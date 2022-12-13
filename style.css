@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    height: 100vh;
+    scroll-snap-type:y mandatory ;
+    overflow-y: scroll  ;   
+    /* scroll-padding: 100px;  */
+    
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+  }
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align:start;
+}
+.one{
+    background-color: cadetblue;
+
+}
+
+.two{
+    background-color: red;
+
+}
+
+.three{
+    background-color: blueviolet;
+
+}
+
+.four{
+    background-color: lightsalmon;
+
+}
+
+.fifth{
+    background-color: chartreuse;
+}
